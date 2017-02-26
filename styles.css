@@ -1,0 +1,68 @@
+/* add your CSS here */
+body {
+	color:#C6E5FF;
+	font-family:Arial, sans-serif;
+}
+.card {
+	width:300px;
+    background-color:teal;
+    border-radius:5px 5px;
+    border:1px solid white;/*only added as it is a requirement*/
+}
+h3.character-title {
+	text-align:center;
+	font-weight:bold;
+	color:aliceblue;
+	padding:10px;
+	margin:0px;
+}
+p.summary {
+	font-style:italic;
+	margin-top:0px;
+	padding:8px;
+}
+div.card img {
+	width:100%;
+	padding:0px;/*only added as it is a requirement*/
+}
+div.fact-panel {
+	background-color:#6898c5;
+	margin:0px 15px 0px 15px;
+	position:relative;
+	top:-20px;
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+    border:1px solid #6898c5;/*only added as it is a requirement*/
+    border-radius:5px 5px;
+    padding:0px;/*only added as it is a requirement*/
+}
+ul.fact-list {
+	list-style:none;
+	padding-left:7px;
+	line-height:1.4em;
+	margin-top:5px;
+}
+span.fact-label {
+	font-weight: bold;
+	font-family:Times, serif;
+	color:#fcf398;
+}
+p.description {
+	padding:8px;
+	font-size:.9em;
+}
+
+/* Udacity requirements
+italicized text for the animal's interesting fact = line 20
+bolded labels for the animal's list items (e.g. 'Habitat') = line 47
+no dots for the animal's list items = line 41
+border around the animal's name, image, and information = line 10
+border around the animal's information = line 36
+spacing between the animal's name, image, and information (you will need to use the property padding)
+= line 16, 22, 26, 38, 52
+
+*/
+
+
+
